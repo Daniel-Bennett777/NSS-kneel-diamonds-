@@ -149,6 +149,20 @@
       "sizeId": 4,
       "jewelryType": "earrings",
       "id": 12
+    },
+    {
+      "metalId": 2,
+      "styleId": 1,
+      "sizeId": 2,
+      "jewelryType": "necklace",
+      "id": 13
+    },
+    {
+      "metalId": 2,
+      "styleId": 1,
+      "sizeId": 2,
+      "jewelryType": "earrings",
+      "id": 14
     }
   ]
 }

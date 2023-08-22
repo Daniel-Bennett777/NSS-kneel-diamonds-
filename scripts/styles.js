@@ -20,7 +20,7 @@ export const StyleOptions = async () => {
 
     const divStringArray = styles.map(
         (style) => {
-            const checked = style.id === transientState.styleId ? 'checked': '';
+            const checked = style.id === transientState.get("styleId") ? 'checked': '';
           return `<div>
               <input type='radio' name='style' value='${style.id}' ${checked}/> ${style.style}
           </div>`
