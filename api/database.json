@@ -100,6 +100,55 @@
       "styleId": 1,
       "sizeId": 5,
       "id": 5
+    },
+    {
+      "metalId": 2,
+      "styleId": 1,
+      "sizeId": 3,
+      "jewelryType": "earrings",
+      "id": 6
+    },
+    {
+      "metalId": 1,
+      "styleId": 1,
+      "sizeId": 1,
+      "jewelryType": "ring",
+      "id": 7
+    },
+    {
+      "metalId": 1,
+      "styleId": 1,
+      "sizeId": 1,
+      "jewelryType": "earrings",
+      "id": 8
+    },
+    {
+      "metalId": 1,
+      "styleId": 1,
+      "sizeId": 1,
+      "jewelryType": "ring",
+      "id": 9
+    },
+    {
+      "metalId": 1,
+      "styleId": 1,
+      "sizeId": 1,
+      "jewelryType": "earrings",
+      "id": 10
+    },
+    {
+      "metalId": 1,
+      "styleId": 1,
+      "sizeId": 1,
+      "jewelryType": "earrings",
+      "id": 11
+    },
+    {
+      "metalId": 1,
+      "styleId": 3,
+      "sizeId": 4,
+      "jewelryType": "earrings",
+      "id": 12
     }
   ]
 }

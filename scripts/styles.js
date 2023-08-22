@@ -1,5 +1,5 @@
 import { setStyleChoice } from "./transientState.js"
-
+import { transientState } from "./transientState.js";
 
 
 const handleStyleChoice = (event) => {
@@ -20,8 +20,9 @@ export const StyleOptions = async () => {
 
     const divStringArray = styles.map(
         (style) => {
+            const checked = style.id === transientState.styleId ? 'checked': '';
           return `<div>
-              <input type='radio' name='style' value='${style.id}' /> ${style.style}
+              <input type='radio' name='style' value='${style.id}' ${checked}/> ${style.style}
           </div>`
         }
     )
