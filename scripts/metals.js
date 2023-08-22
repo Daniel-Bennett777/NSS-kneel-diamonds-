@@ -29,7 +29,7 @@ export const MetalOptions = async () => {
     // Use map() to generate new array of strings
     const divStringArray = metals.map(
         (metal) => {
-            const checked = metal.id === transientState.metalId ? 'checked': '';//ternary operator metal.id is unique identifier
+            const checked = metal.id === transientState.get("metalId") ? 'checked': '';//ternary operator metal.id is unique identifier
             // ? 'checked' : '': This is a ternary operator, which is a concise way to write an if statement in a single line. It works like this: if the condition (metal.id === transientState.metalId) is true, then 'checked' is returned; otherwise, if the condition is false, an empty string ('') is returned.
           return `<div>
               <input type='radio' name='metal' value='${metal.id}' ${checked}/> ${metal.metal}

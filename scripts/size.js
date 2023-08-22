@@ -19,7 +19,7 @@ export const SizeOptions = async () => {
 
     const divStringArray = sizes.map(
         (size) => {
-        const checked = size.id === transientState.sizeId ? 'checked': '';
+        const checked = size.id === transientState.get("sizeId") ? 'checked': '';//.get for mapping 
           return `<div>
               <input type='radio' name='size' value='${size.id}' ${checked} /> ${size.carets}
           </div>`
