@@ -1,4 +1,5 @@
 import { setSizeChoice } from "./transientState.js"
+import { transientState } from "./transientState.js";
 
 const handleSizeChoice = (event) => {
     // Make sure you change this condition if you named your inputs differently
@@ -18,8 +19,9 @@ export const SizeOptions = async () => {
 
     const divStringArray = sizes.map(
         (size) => {
+        const checked = size.id === transientState.sizeId ? 'checked': '';
           return `<div>
-              <input type='radio' name='size' value='${size.id}' /> ${size.carets}
+              <input type='radio' name='size' value='${size.id}' ${checked} /> ${size.carets}
           </div>`
         }
     )
